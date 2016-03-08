@@ -1,2 +1,2 @@
-# gnaysoo.github.io
+# sojuyang.github.io
 Public Site

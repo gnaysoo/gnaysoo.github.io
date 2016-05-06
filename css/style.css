@@ -1,27 +1,25 @@
-body{
-	font-family: sans-serif;
-	text-align: center;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
 }
 
-#hwtop{
-	font-weight: 50%;
-	color: #6D0839;
-	font-size: 100px;
-	padding: 0px;
+ul {
+	font-weight: 500;
+	color:teal;
+	font-size: 1em;
 }
 
-.woke{
-	font-family: helvetica;
-	color: #25271E;
-	font-size: 50px;
-}
-
-.picture{
-	padding: 30px;
-}
-
-p{
-	text-align: center;
-	margin: 0 auto;
-	width: 500px;
+li {
+	font-weight: 300;
+	color:black;
 }

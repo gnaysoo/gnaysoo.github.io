@@ -4356,6 +4356,8 @@ h4 {
   font-size: 2.28rem;
   line-height: 110%;
   margin: 1.14rem 0 0.912rem 0;
+  color: teal;
+  font-weight: 500;
 }
 
 h5 {
@@ -4532,6 +4534,7 @@ small {
   margin: 0.5rem 0 1rem 0;
   border-radius: 2px;
   background-color: #fff;
+  position: cent;
 }
 
 .card {
@@ -5310,8 +5313,9 @@ a.waves-effect .waves-ripple {
   min-height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
-  background-color: #fff;
+  background-color: #ffab40;
   border-bottom: 1px solid #ddd;
+  font-weight: 500;
 }
 
 .collapsible-header i {

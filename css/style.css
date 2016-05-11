@@ -13,6 +13,7 @@
 	font-size: inherit;
 }
 
+
 p {
 	font-size: 1.2em;
 }
@@ -34,4 +35,6 @@ footer a
   margin: 4px;
 }
 
-
+.worklogo {
+	position: relative;
+}

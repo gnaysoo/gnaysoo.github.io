@@ -10,12 +10,23 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-  <nav class="teal lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Call Me Soo</a>
+<body class="portfoliopage">
+ <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="wrkbench.html">Wrkbench</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Coming Soon</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Coming Soon</a></li>
+</ul>
+<nav class="navbar" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html"><img class="brand-logo" src="images/navlogo.png"/></a>
       <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
         <li><a class="smoothScroll" href='#contact'>Contact</a></li>
+        <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Work<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -26,7 +37,8 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-</div>
+          <br><br><br>
+
     <div class="container">
       <div class="row">
         <div class="col hide-on-small-only m3 l2">
@@ -36,10 +48,11 @@
         <li>March - April 2016</li>
         <br><br>
       Team
-         <li><a href="https://www.linkedin.com/in/warrenlongmire" target="_blank">Warren Longmire (Developer)</a></li>
+         <li><a href="https://www.linkedin.com/in/warrenlongmire" target="_blank">Warren Longmire (Dev)</a></li>
          <li><a href="https://www.linkedin.com/in/walterbermudez" target="_blank">Walter Bermudez(Dev)</a></li>
          <li><a href="https://www.linkedin.com/in/jessica-cary-b165271" target="_blank">Jessica Cary (Sales)</a></li>
          <li><a href="https://www.linkedin.com/in/oliviagericke" target="_blank">Olivia Gericke (UI/UX Design)</a></li>
+          <li>and Soo!</li>
         <br><br>
       Methods
           <li>Usability Testing</li>
@@ -65,8 +78,8 @@
 
     <div class="col s12 m9 l10">
         <div class="section center-block">
-          <h3 class="center-align">WrkBench</h3>
-          <a href="http://wrkbench.io/" target="_blank"><p class="center-align orange-text"> Wrkbench.io is a visual collaboration tool designed for professionals that allow people in real-time to create, play, and share their work in a virtual space. </p></a>
+          <h2 class="center-align">Wrkbench</h2>
+          <a href="http://wrkbench.io/" target="_blank"><p class="center-align"> Wrkbench.io is a visual collaboration tool designed for professionals that allow people in real-time to create, play, and share their work in a virtual space. </p></a>
                 <div class="section center-block">
                   <img class="materialboxed" id="preview" data-caption="Slices of the Sketch wireframes" width="100%" src="images/wrkbench/sketch.gif" alt="A gif with rotating images of the high-fidelity wireframe for Workbench Pro's website"></div>
             <p class="flow-text">At Wrkbench, I worked with my Startup Institute team to capture marketable opportunities and industry-driven feature concepts for the startup's upcoming enterprise app, Wrkbench Pro. As well as an interactive wireframe of the Wrkbench Pro website. We employed lean UX principles and methodologies such as user testing, affinity mapping and wireframing to deliver our weekly presentations to the founder and CTO. </p> </div>
@@ -81,10 +94,11 @@
                   <li>
                     <div class="collapsible-header"><i class="material-icons">group_work</i>Team</div>
                     <div class="collapsible-body">
-                    <p><a href="https://www.linkedin.com/in/warrenlongmire" target="_blank">Warren Longmire (Developer)</a>,
+                    <p><a href="https://www.linkedin.com/in/warrenlongmire" target="_blank">Warren Longmire (Dev)</a>,
                      <a href="https://www.linkedin.com/in/walterbermudez" target="_blank">Walter Bermudez(Dev)</a>,
                      <a href="https://www.linkedin.com/in/jessica-cary-b165271" target="_blank">Jessica Cary (Sales)</a>,
-                     <a href="https://www.linkedin.com/in/oliviagericke" target="_blank">Olivia Gericke (UI/UX Design)</a></p></div>
+                     <a href="https://www.linkedin.com/in/oliviagericke" target="_blank">Olivia Gericke (UI/UX Design)</a>,
+                      and Soo</p></div>
                   </li>
                   <li>
                     <div class="collapsible-header"><i class="material-icons">assignment</i>Methods</div>
@@ -92,7 +106,7 @@
                   </li>
                     <li>
                     <div class="collapsible-header"><i class="material-icons">dashboard</i>Tools</div>
-                    <div class="collapsible-body"><p>Pen, paper, post-its, myBalsamiq, Sketch, Invision, Powerpoint</p></div>
+                    <div class="collapsible-body"><p>myBalsamiq, Sketch, Invision, Powerpoint, pen, paper, & post-its</p></div>
                   </li>
                     <li>
                     <div class="collapsible-header"><i class="material-icons">whatshot</i>Project Goals</div>
@@ -111,25 +125,25 @@
                 <li>
                   <img src="images/wrkbench/affinitymapping.jpg" alt="affinity mapping with team for features"> 
                   <div class="caption center-align">
-                    <h3 class="red">Affinity Mapping</h3>
+                    <h3>Affinity Mapping</h3>
                   </div>
                 </li>
                 <li>
                   <img src="images/wrkbench/mentalmodel.jpg" alt="Me leading a brain-dumping exercise"> 
                   <div class="caption center-align">
-                    <h3 class="red">Brain-dumping</h3>
+                    <h3>Brain-dumping</h3>
                   </div>
                 </li>
                 <li>
                   <img src="images/wrkbench/mindmappedx.jpg" alt="mind-mapping exercise by card-sorting"> 
                   <div class="caption center-align">
-                    <h3 class="red">Mind-mapping</h3>
+                    <h3>Mind-mapping</h3>
                   </div>
                 </li>
                 <li>
                   <img src="images/wrkbench/personas.png" alt="multiple high-fidelity personas"> 
                   <div class="caption center-align">
-                    <h3 class="red">Personas</h3>
+                    <h3>Personas</h3>
                   </div>
                 </li>
               </ul>
@@ -157,23 +171,26 @@
 </div>
 </div>
 
-
-   <footer class="page-footer">
+     <footer class="page-footer">
     <div class="container smoothScroll" id="contact">
       <div class="row">
         <div class="col s12 center-align">
-          <h5 class="white-text">Let's Connect!</h5>
-            <div>
-              <a class="waves-effect waves-light btn" href="mailto:susan.yang301@gmail.com?Subject=Hey Soo!"><i class="material-icons left">email</i>Email</a>
-              <a class="waves-effect waves-light btn" href="https://www.linkedin.com/in/sojuyang" target="_blank"><i class="material-icons left">work</i>LinkedIn</a>
-              <a class="waves-effect waves-light btn" href="https://twitter.com/gnaysoo" target="_blank"><i class="material-icons left">chat_bubble_outline</i>Twitter</a>
-            </div>
+          <h5>Reach Out!</h5>
+              <div> 
+                  <a href="mailto:susan.yang301@gmail.com?Subject=Hey Soo!"><img class="responsive-img" src="images/social/email.png" alt="email Soo"/></a>
+                </div>
+                <br>
+                <div>
+                  <a href="https://www.linkedin.com/in/sojuyang" target="_blank"><img class="responsive-img" src="images/social/linkedin.png" alt="Soo's linkedin"/></a>
+                  <a href="https://twitter.com/gnaysoo" target="_blank"><img class="responsive-img" src="images/social/twitter.png" alt="Soo's twiiter"/></a>
+                  <a href="https://www.github.com/sojuyang" target="_blank"><img class="responsive-img" src="images/social/github.png" alt="Soo's github"/></a>
+                </div> 
         </div>
       </div>
     </div>
     <div class="footer-copyright center-align">
       <div class="container">
-        © <a class="orange-text text-lighten-3" href="#">Call me Soo</a> 2016
+        © Call me Soo 2016
       </div>
     </div>
   </footer>

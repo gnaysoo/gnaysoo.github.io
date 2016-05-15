@@ -15,6 +15,8 @@
 		// Previous slide
 		$('.slider').slider('prev');
 
+    $(".dropdown-button").dropdown();
+
 $(function() {
  $('.smoothScroll').click(function() {
    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

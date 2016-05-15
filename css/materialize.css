@@ -2334,7 +2334,8 @@ a {
  */
 a:active,
 a:hover {
-  outline: 0;
+  text-transform: uppercase;
+  color: #F7AB92;
 }
 
 /* Text-level semantics
@@ -2653,7 +2654,7 @@ ul.browser-default {
 }
 
 a {
-  color: #039be5;
+  color: #F7AB92;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -2975,15 +2976,15 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #263238;
+  background-color: #121F34;
 }
 
 footer.page-footer .footer-copyright {
   overflow: hidden;
   height: 50px;
   line-height: 50px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  color: white;
+  background-color: transparent;
 }
 
 table, th, td {
@@ -4131,10 +4132,7 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  color: #fff;
-  display: inline-block;
-  font-size: 2.1rem;
-  padding: 0;
+  padding: 5;
   white-space: nowrap;
 }
 
@@ -4144,12 +4142,13 @@ nav .brand-logo.center {
           transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 769px) {
   nav .brand-logo {
-    left: 50%;
+    right: 70%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     -webkit-transform: none;
@@ -4168,6 +4167,33 @@ nav .brand-logo.right {
   right: 0.5rem;
   padding: 0;
 }
+
+@media only screen and (max-width: 768px) {
+  nav .brand-logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+
+  nav .brand-logo.left, nav .brand-logo.right {
+    padding: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  nav .brand-logo.left {
+    left: 0.5rem;
+  }
+  nav .brand-logo.right {
+    right: 0.5rem;
+    left: auto;
+  }
+}
+
+nav .brand-logo.right {
+  right: 0.5rem;
+  padding: 0;
+}
+
 
 nav ul {
   margin: 0;
@@ -4540,7 +4566,7 @@ small {
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
-  background-color: #fff;
+  background-color: white;
   transition: box-shadow .25s;
   border-radius: 2px;
 }
@@ -4621,7 +4647,7 @@ small {
 }
 
 .card .card-content a {
-  color: #ffab40;
+  color: #F7AB92;
 }
 .card .card-content .card-title {
   line-height: 48px;
@@ -4904,8 +4930,8 @@ small {
 
 .btn, .btn-large {
   text-decoration: none;
-  color: #fff;
-  background-color: #26a69a;
+  color: #121F34;
+  background-color: #59DDBE;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -4913,7 +4939,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #121F34;
 }
 
 .btn-floating {
@@ -5079,7 +5105,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color: #F7AB92;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -5316,7 +5342,7 @@ a.waves-effect .waves-ripple {
   min-height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
-  background-color: #ffab40;
+  background-color: #59DDBE;
   border-bottom: 1px solid #ddd;
   font-weight: 500;
 }
@@ -6713,7 +6739,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav a {
-  color: #444;
+  color: #0E96A5;
   display: block;
   font-size: 1rem;
   height: 64px;
@@ -7405,7 +7431,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #F7AB92;
 }
 
 .carousel {

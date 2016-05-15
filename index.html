@@ -10,15 +10,27 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
-  <nav class="teal lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Call me Soo</a>
+<body class="homepage">
+ <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="wrkbench.html">Wrkbench</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Coming Soon</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Coming Soon</a></li>
+</ul>
+<nav class="navbar" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html"><img class="brand-logo" src="images/navlogo.png"/></a>
       <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
         <li><a class="smoothScroll" href='#contact'>Contact</a></li>
+        <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Work<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
         <li><a href="wrkbench.html">Wrkbench</a></li>
       </ul>
@@ -27,7 +39,7 @@
   </nav>
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
-      <h1 class="header center">UX Researcher</h1>
+      <br><br><br><br>
       <div class="row center">
         <h5 class="header col s12 light">Let's design timeless experiences</h5>
       </div>
@@ -44,10 +56,10 @@
           <div class="icon-block">
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="images/wrkbench/logo.jpg">
+                  <a href="wrkbench.html"><img class="activator" src="images/wrkbench/logo.jpg"></a>
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">UX Research & Design<i class="material-icons right">more_vert</i></span>
+                  <span class="card-title activator">UX Research & Design<i class="material-icons right">more_vert</i></span>
                   <p><a href="wrkbench.html">Learn more</a></p>
                 </div>
                 <div class="card-reveal">
@@ -105,18 +117,22 @@
     <div class="container smoothScroll" id="contact">
       <div class="row">
         <div class="col s12 center-align">
-          <h5 class="white-text">Let's Connect!</h5>
-            <div>
-              <a class="waves-effect waves-light btn" href="mailto:susan.yang301@gmail.com?Subject=Hey Soo!"><i class="material-icons left">email</i>Email</a>
-              <a class="waves-effect waves-light btn" href="https://www.linkedin.com/in/sojuyang" target="_blank"><i class="material-icons left">work</i>LinkedIn</a>
-              <a class="waves-effect waves-light btn" href="https://twitter.com/gnaysoo" target="_blank"><i class="material-icons left">chat_bubble_outline</i>Twitter</a>
-            </div>
+          <h5>Reach Out!</h5>
+              <div> 
+                  <a href="mailto:susan.yang301@gmail.com?Subject=Hey Soo!"><img class="responsive-img" src="images/social/email.png" alt="email Soo"/></a>
+                </div>
+                <br>
+                <div>
+                  <a href="https://www.linkedin.com/in/sojuyang" target="_blank"><img class="responsive-img" src="images/social/linkedin.png" alt="Soo's linkedin"/></a>
+                  <a href="https://twitter.com/gnaysoo" target="_blank"><img class="responsive-img" src="images/social/twitter.png" alt="Soo's twiiter"/></a>
+                  <a href="https://www.github.com/sojuyang" target="_blank"><img class="responsive-img" src="images/social/github.png" alt="Soo's github"/></a>
+                </div> 
         </div>
       </div>
     </div>
     <div class="footer-copyright center-align">
       <div class="container">
-        © <a class="orange-text text-lighten-3" href="#">Call me Soo</a> 2016
+        © Call me Soo 2016
       </div>
     </div>
   </footer>

@@ -20,7 +20,7 @@ p {
 
 ul {
 	font-weight: 500;
-	color:teal;
+	color:#3A57AC;
 	font-size: 1em;
 }
 
@@ -35,6 +35,34 @@ footer a
   margin: 4px;
 }
 
+.portfoliopage h2 {
+	color: #121F34;
+	font-weight: 600;
+}
+
+.portfoliopage h3 {
+	background-color: #121F34;
+	color: #59DDBE;
+	font-weight: 600;
+}
+
+.portfoliopage h4 {
+	color: #3A57AC;
+	font-weight: 600;
+}
+
 .worklogo {
 	position: relative;
 }
+
+.navbar {
+	background-color: #121F34;
+}
+
+footer h5 {
+	color: #59DDBE;
+	font-weight: 600;
+}
+
+
+

@@ -14,8 +14,12 @@
 }
 
 .brand-logo {
-	font-family: 'Pacifico', cursive;
+	font-family: 'GillSans';
 	font-size: 2em;
+}
+
+#index-banner p {
+	font-weight: 700;
 }
 
 h1, h4 {
@@ -32,6 +36,7 @@ h3 {
 	font-family: 'GillSans';
 	color: #121F34;
 }
+
 
 p {
 	font-size: 1.2em;

@@ -13,56 +13,50 @@
 	font-size: inherit;
 }
 
+.brand-logo {
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+}
+
+h1, h4 {
+	font-family: 'Pacifico', cursive;
+	color: #121F34;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	color: #59DDBE;
+}
+
+h3 {
+	font-family: 'GillSans';
+	color: #121F34;
+}
 
 p {
 	font-size: 1.2em;
 }
 
 ul {
+	font-family: 'Pacifico', cursive;
 	font-weight: 500;
-	color:#3A57AC;
+	color:#59DDBE;
 	font-size: 1em;
 }
 
 li {
+	font-family: 'GillSans';
 	font-weight: 300;
 	color:black;
-}
-
-footer a 
-{
-  padding-top: 5px;
-  margin: 4px;
-}
-
-.portfoliopage h2 {
-	color: #121F34;
-	font-weight: 600;
-}
-
-.portfoliopage h3 {
-	background-color: #121F34;
-	color: #59DDBE;
-	font-weight: 600;
-}
-
-.portfoliopage h4 {
-	color: #3A57AC;
-	font-weight: 600;
 }
 
 .worklogo {
 	position: relative;
 }
 
-.navbar {
-	background-color: #121F34;
+.logosize {
+	height: 200px;
+	width: 100%;
 }
-
-footer h5 {
-	color: #59DDBE;
-	font-weight: 600;
-}
-
 
 

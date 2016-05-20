@@ -6,11 +6,12 @@
   <title>Call Me Soo</title>
 
   <!-- CSS  -->
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body class="portfoliopage">
+<body class="homepage">
  <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
   <li><a href="wrkbench.html">Wrkbench</a></li>
@@ -20,24 +21,22 @@
   <li><a href="#!">Coming Soon</a></li>
 </ul>
 <nav class="navbar" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html"><img class="brand-logo" src="images/navlogo.png"/></a>
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Soo Jung Yang</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a class="smoothScroll" href='#contact'>Contact</a></li>
         <!-- Dropdown Trigger -->
-          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Work<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Work<i class="material-icons right">arrow_drop_down</i></a></li>
+        <!-- end of Dropdown -->
+        <li><a class="smoothScroll" href="index.html">Home</a></li>
+        <li><a class="smoothScroll" href='#contact'>Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="wrkbench.html">Wrkbench</a></li>
+        <li><a href="wrkbench.html">Work#1: Wrkbench</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-          <br><br><br>
 
     <div class="container">
       <div class="row">
@@ -110,7 +109,7 @@
                   </li>
                     <li>
                     <div class="collapsible-header"><i class="material-icons">whatshot</i>Project Goals</div>
-                    <div class="collapsible-body"><p>Identifying the ideal user base and designing an interactive prototype of the website for a future enterprise app</p></div>
+                    <div class="collapsible-body"><p>Identify the ideal user base and design an interactive website prototype for a future enterprise app</p></div>
                   </li>
                 </ul>
               </div>
@@ -123,19 +122,19 @@
             <div class="slider">
               <ul class="slides">
                 <li>
-                  <img src="images/wrkbench/affinitymapping.jpg" alt="affinity mapping with team for features"> 
+                  <img src="images/wrkbench/affinitymapping.png" alt="affinity mapping with team for features"> 
                   <div class="caption center-align">
                     <h3>Affinity Mapping</h3>
                   </div>
                 </li>
                 <li>
-                  <img src="images/wrkbench/mentalmodel.jpg" alt="Me leading a brain-dumping exercise"> 
+                  <img src="images/wrkbench/mentalmodel.png" alt="Me leading a brain-dumping exercise"> 
                   <div class="caption center-align">
                     <h3>Brain-dumping</h3>
                   </div>
                 </li>
                 <li>
-                  <img src="images/wrkbench/mindmappedx.jpg" alt="mind-mapping exercise by card-sorting"> 
+                  <img src="images/wrkbench/mindmappedx.png" alt="mind-mapping exercise by card-sorting"> 
                   <div class="caption center-align">
                     <h3>Mind-mapping</h3>
                   </div>
@@ -156,7 +155,7 @@
             <h4>Wrkbench Pro website:</h4>
               <p class="flow-text">I collaborated with Olivia, a UI/UX designer, to deliver low to high-fidelity wireframes and finally an interactive prototype on InVision of the enterprise focused website <a href="#preview">(preview on top)</a>. We first started researching work-related productivity software to reference the websites of the most successful apps for comparative analysis. We uncovered the information hierarchy of SaaS-minded customers such as a product-centered introduction, privacy concerns, brand testimonials, illustrated features, and more. </p>
 
-              <p>We organized the information architecture efficiently with low-fidelity wireframes, providing opportunities for change per the stakeholder's feedback that lead to our final mockup.</p>
+              <p>We efficiently organized the information architecture with low-fidelity wireframes, providing opportunities for change per the stakeholder's feedback that lead to our final mockup.</p>
                 <div class="section center-block">
                   <img class="responsive-img" data-caption="Low-fidelity wireframe" src="images/wrkbench/lfwireframe.png" alt="A low-fidelity wireframe with curated sections for video, call to action, company testimonials, features, and other details"></div>
 
@@ -171,25 +170,15 @@
 </div>
 </div>
 
-     <footer class="page-footer">
+  <footer class="page-footer">
     <div class="container smoothScroll" id="contact">
       <div class="row">
-        <div class="col s12 center-align">
-          <h5>Reach Out!</h5>
-              <div> 
-                  <a href="mailto:susan.yang301@gmail.com?Subject=Hey Soo!"><img class="responsive-img" src="images/social/email.png" alt="email Soo"/></a>
-                </div>
-                <br>
-                <div>
-                  <a href="https://www.linkedin.com/in/sojuyang" target="_blank"><img class="responsive-img" src="images/social/linkedin.png" alt="Soo's linkedin"/></a>
-                  <a href="https://twitter.com/gnaysoo" target="_blank"><img class="responsive-img" src="images/social/twitter.png" alt="Soo's twiiter"/></a>
-                  <a href="https://www.github.com/sojuyang" target="_blank"><img class="responsive-img" src="images/social/github.png" alt="Soo's github"/></a>
-                </div> 
-        </div>
-      </div>
+                <div class="row center">
+                <h4>Have questions? Reach out!</h4>
+                <a href="mailto:susan.yang301@gmail.com?Subject=Hey Soo!" class="btn-large waves-effect waves-light"><i class="material-icons left">email</i>Email</a></div>
     </div>
-    <div class="footer-copyright center-align">
-      <div class="container">
+    <div class="footer-copyright">
+      <div class="container center">
         © Call me Soo 2016
       </div>
     </div>

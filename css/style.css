@@ -22,6 +22,11 @@
 	font-weight: 700;
 }
 
+.slider p {
+	font-weight: 700;
+	background-color: black;
+}
+
 h1, h4 {
 	font-family: 'Pacifico', cursive;
 	color: #121F34;
@@ -45,7 +50,7 @@ p {
 ul {
 	font-family: 'Pacifico', cursive;
 	font-weight: 500;
-	color:#59DDBE;
+	color:#F7AB92;
 	font-size: 1em;
 }
 
